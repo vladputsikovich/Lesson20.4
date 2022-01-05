@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED29F6BB2786282E00151EA8 /* Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29F6BA2786282E00151EA8 /* Month.swift */; };
+		ED29F6BD27862AF400151EA8 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED29F6BC27862AF400151EA8 /* Date.swift */; };
+		ED455EB3278505EC003BEF4D /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED455EB2278505EC003BEF4D /* Student.swift */; };
+		ED7A826C27864DB400384802 /* SearchStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A826B27864DB400384802 /* SearchStudent.swift */; };
 		EDC3C609278503980054438A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC3C608278503980054438A /* AppDelegate.swift */; };
 		EDC3C60B278503980054438A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC3C60A278503980054438A /* SceneDelegate.swift */; };
 		EDC3C60D278503980054438A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC3C60C278503980054438A /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED29F6BA2786282E00151EA8 /* Month.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Month.swift; sourceTree = "<group>"; };
+		ED29F6BC27862AF400151EA8 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		ED455EB2278505EC003BEF4D /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		ED7A826B27864DB400384802 /* SearchStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStudent.swift; sourceTree = "<group>"; };
 		EDC3C605278503980054438A /* Lesson20.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson20.4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC3C608278503980054438A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDC3C60A278503980054438A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +67,10 @@
 				EDC3C608278503980054438A /* AppDelegate.swift */,
 				EDC3C60A278503980054438A /* SceneDelegate.swift */,
 				EDC3C60C278503980054438A /* ViewController.swift */,
+				ED7A826B27864DB400384802 /* SearchStudent.swift */,
+				ED29F6BC27862AF400151EA8 /* Date.swift */,
+				ED29F6BA2786282E00151EA8 /* Month.swift */,
+				ED455EB2278505EC003BEF4D /* Student.swift */,
 				EDC3C60E278503980054438A /* Main.storyboard */,
 				EDC3C6112785039A0054438A /* Assets.xcassets */,
 				EDC3C6132785039A0054438A /* LaunchScreen.storyboard */,
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDC3C60D278503980054438A /* ViewController.swift in Sources */,
+				ED29F6BD27862AF400151EA8 /* Date.swift in Sources */,
 				EDC3C609278503980054438A /* AppDelegate.swift in Sources */,
+				ED7A826C27864DB400384802 /* SearchStudent.swift in Sources */,
 				EDC3C60B278503980054438A /* SceneDelegate.swift in Sources */,
+				ED29F6BB2786282E00151EA8 /* Month.swift in Sources */,
+				ED455EB3278505EC003BEF4D /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
